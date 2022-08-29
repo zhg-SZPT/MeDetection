@@ -8,7 +8,9 @@ l2l 0.1.7
 ## Dataset Preparation
 1. Dataset Download Address <https://pan.baidu.com/s/1oax7M4yhNq0AfLjbZPJT3w?pwd=dtgc 
 提取码：dtgc> Put the downloaded dataset into the dataset folder <br>
-2. Our dataset contains 30 different categories of industrial products, sourced from MVTec, DAGM and our own cap dataset
+2. Our dataset contains 30 different categories of industrial products, sourced from MVTec, DAGM and our own cap dataset. 
+If you need our dataset, please contact our corresponding author and you will be required to sign a confidentiality agreement.
+Corresponding author email : zhg2018@sina.com.
   ```python
   
   地毯
