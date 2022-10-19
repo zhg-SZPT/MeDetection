@@ -7,7 +7,7 @@ cuda 11.2 <br>
 l2l 0.1.7
 ## Dataset Preparation
 1. Our homemade dataset BC defetcs is placed in the dataset folder<br>
-2. Our MAML dataset contains 30 different categories of industrial products, sourced from MVTec, DAGM and our own cap dataset. 
+2. Our MAML dataset contains 30 different categories of industrial products, sourced from MVTec, DAGM and our own BC defects dataset. 
 The remaining two datasets are available for download at MVTec AD:<https://www.mvtec.com/company/research/datasets/mvtec-ad/>，
    DAGM:<https://hci.iwr.uni-heidelberg.de/content/weakly-supervised-learning-industrial-optical-inspection>.
   ```python
