@@ -6,11 +6,10 @@ pytorch 1.10.10 <br>
 cuda 11.2 <br>
 l2l 0.1.7
 ## Dataset Preparation
-1. Dataset Download Address <https://pan.baidu.com/s/1GgQhuj6it2e4UtpuOtVzlA?pwd=4a92 
-提取码：4a92> Put the downloaded dataset into the dataset folder <br>
-2. Our dataset contains 30 different categories of industrial products, sourced from MVTec, DAGM and our own cap dataset. 
-If you need our dataset, please contact our corresponding author and you will be required to sign a confidentiality agreement.
-Corresponding author email : zhg2018@sina.com.
+1. Our homemade dataset BC defetcs is placed in the dataset folder<br>
+2. Our MAML dataset contains 30 different categories of industrial products, sourced from MVTec, DAGM and our own cap dataset. 
+the other two data sets, MVTec AD:<https://www.mvtec.com/company/research/datasets/mvtec-ad/>，
+   DAGM:<https://hci.iwr.uni-heidelberg.de/content/weakly-supervised-learning-industrial-optical-inspection>.
   ```python
   
   地毯
