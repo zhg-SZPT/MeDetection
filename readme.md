@@ -12,10 +12,10 @@ The remaining two datasets are available for download at MVTec AD:<https://www.m
    DAGM:<https://hci.iwr.uni-heidelberg.de/content/weakly-supervised-learning-industrial-optical-inspection>.
   ```python
   
-  地毯
-  人行道
-  瓶盖
-  药片
+  carpet
+  sidewalks
+  BC defects
+  pill
   ...
   ```
 
@@ -23,7 +23,7 @@ The remaining two datasets are available for download at MVTec AD:<https://www.m
 1. Run maml.python file for maml training First remove the target task from the dataset by the following code, then set the maml related parameters
 ```python
 
-    tasknames1=["电缆"]
+    tasknames1=["cable"]
 ...
     argparser.add_argument('--epoch', type=int, help='epoch number', default=1000)
     argparser.add_argument('--meta_lr', type=float, help='meta-level outer learning rate', default=0.001)
